@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Тести — Основи кібербезпеки</title>
+<link rel="stylesheet" href="css/style.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body class="dark">
+  <div id="bg"></div>
+  <header class="site-header">
+    <div class="brand"><h1>Тести</h1></div>
+    <nav class="nav">
+      <a href="index.html">Головна</a>
+      <a href="home.html">Головна (детально)</a>
+      <a href="materials.html">Матеріали</a>
+      <a href="contacts.html">Контакти</a>
+    </nav>
+  </header>
+
+  <section class="content container">
+    <h2>Контрольні питання (20)</h2>
+    <form id="quizForm">
+<div class='qblock'><p class='qnum'>1. Що таке персональні дані?</p>
+<label><input type='radio' name='q1' value='0'> Тільки ім’я</label><br/>
+<label><input type='radio' name='q1' value='1'> Інформація, що ідентифікує людину</label><br/>
+<label><input type='radio' name='q1' value='2'> Тільки фото</label><br/>
+<label><input type='radio' name='q1' value='3'> Тільки телефон</label><br/>
+</div>
+
+<div class='qblock'><p class='qnum'>2. Що означає фішинг?</p>
+<label><input type='radio' name='q2' value='0'> Атака на мережу</label><br/>
+<label><input type='radio' name='q2' value='1'> Спроба виманити дані через підробні повідомлення</label><br/>
+<label><input type='radio' name='q2' value='2'> Вид шкідливого ПЗ</label><br/>
+<label><input type='radio' name='q2' value='3'> Тип брандмауера</label><br/>
+</div>
+
+<div class='qblock'><p class='qnum'>3. Який метод підвищує безпеку акаунта?</p>
+<label><input type='radio' name='q3' value='0'> Тільки довгий пароль</label><br/>
+<label><input type='radio' name='q3' value='1'> Двофакторна автентифікація</label><br/>
+<label><input type='radio' name='q3' value='2'> Використовувати один пароль скрізь</label><br/>
+<label><input type='radio' name='q3' value='3'> Публічна Wi‑Fi</label><br/>
+</div>
+
+<div class='qblock'><p class='qnum'>4. Для чого потрібен брандмауер?</p>
+<label><input type='radio' name='q4' value='0'> Шифрування даних</label><br/>
+<label><input type='radio' name='q4' value='1'> Фільтрування трафіку</label><br/>
+<label><input type='radio' name='q4' value='2'> Зберігання резервних копій</label><br/>
+<label><input type='radio' name='q4' value='3'> Аналіз логів</label><br/>
+</div>
+
+<div class='qblock'><p class='qnum'>5. Що таке шифрування?</p>
+<label><input type='radio' name='q5' value='0'> Перетворення даних у невідомий формат без ключа</label><br/>
+<label><input type='radio' name='q5' value='1'> Процес створення копії</label><br/>
+<label><input type='radio' name='q5' value='2'> Метод очищення диску</label><br/>
+<label><input type='radio' name='q5' value='3'> Тип антивірус</label><br/>
+</div>
+
+<div class='qblock'><p class='qnum'>6. Що таке DDoS?</p>
+<label><input type='radio' name='q6' value='0'> Ведення журналів</label><br/>
+<label><input type='radio' name='q6' value='1'> Розподілена атака, що перевантажує ресурс</label><br/>
+<label><input type='radio' name='q6' value='2'> Шифрування трафіку</label><br/>
+<label><input type='radio' name='q6' value='3'> Оновлення системи</label><br/>
+</div>
+
+<div class='qblock'><p class='qnum'>7. Що таке троян?</p>
+<label><input type='radio' name='q7' value='0'> Тип антивірусу</label><br/>
+<label><input type='radio' name='q7' value='1'> Шкідлива програма, що маскується під корисну</label><br/>
+<label><input type='radio' name='q7' value='2'> Метод аутентифікації</label><br/>
+<label><input type='radio' name='q7' value='3'> VPN-сервіс</label><br/>
+</div>
+
+<div class='qblock'><p class='qnum'>8. Навіщо робити резервні копії?</p>
+<label><input type='radio' name='q8' value='0'> Щоб випадково втратити дані</label><br/>
+<label><input type='radio' name='q8' value='1'> Щоб мати можливість відновити інформацію після інциденту</label><br/>
+<label><input type='radio' name='q8' value='2'> Щоб не оновлювати систему</label><br/>
+<label><input type='radio' name='q8' value='3'> Щоб приховати сліди</label><br/>
+</div>
+
+<div class='qblock'><p class='qnum'>9. Що найчастіше використовують для аналізу мережевого трафіку?</p>
+<label><input type='radio' name='q9' value='0'> Photoshop</label><br/>
+<label><input type='radio' name='q9' value='1'> Wireshark</label><br/>
+<label><input type='radio' name='q9' value='2'> MS Word</label><br/>
+<label><input type='radio' name='q9' value='3'> Notepad</label><br/>
+</div>
+
+<div class='qblock'><p class='qnum'>10. Яка функція VPN?</p>
+<label><input type='radio' name='q10' value='0'> Підвищує видимість мережі</label><br/>
+<label><input type='radio' name='q10' value='1'> Шифрує трафік і приховує IP-адресу</label><br/>
+<label><input type='radio' name='q10' value='2'> Створює бекапи</label><br/>
+<label><input type='radio' name='q10' value='3'> Знищує шкідливе ПЗ</label><br/>
+</div>
+
+<div class='qblock'><p class='qnum'>11. Чому важливо оновлювати ПЗ?</p>
+<label><input type='radio' name='q11' value='0'> Бо так красивіше</label><br/>
+<label><input type='radio' name='q11' value='1'> Щоб закривати відомі вразливості</label><br/>
+<label><input type='radio' name='q11' value='2'> Щоб збільшити розмір файлів</label><br/>
+<label><input type='radio' name='q11' value='3'> Щоб видалити всі паролі</label><br/>
+</div>
+
+<div class='qblock'><p class='qnum'>12. Що таке соціальна інженерія?</p>
+<label><input type='radio' name='q12' value='0'> Технічний метод сканування портів</label><br/>
+<label><input type='radio' name='q12' value='1'> Психологічні методи впливу на людей для отримання інформації</label><br/>
+<label><input type='radio' name='q12' value='2'> Тип шифрування</label><br/>
+<label><input type='radio' name='q12' value='3'> Інструмент для бекапів</label><br/>
+</div>
+
+<div class='qblock'><p class='qnum'>13. Що таке SIEM?</p>
+<label><input type='radio' name='q13' value='0'> Система для зберігання відео</label><br/>
+<label><input type='radio' name='q13' value='1'> Система управління подіями безпеки — збір та аналіз логів</label><br/>
+<label><input type='radio' name='q13' value='2'> Тип трояна</label><br/>
+<label><input type='radio' name='q13' value='3'> Сервіс хмарного зберігання</label><br/>
+</div>
+
+<div class='qblock'><p class='qnum'>14. Що потрібно зробити при підозрі на злом?</p>
+<label><input type='radio' name='q14' value='0'> Ігнорувати</label><br/>
+<label><input type='radio' name='q14' value='1'> Ізолювати системи і почати збір даних для аналізу</label><br/>
+<label><input type='radio' name='q14' value='2'> Видалити всі користувачів</label><br/>
+<label><input type='radio' name='q14' value='3'> Розмістити пост у соцмережі</label><br/>
+</div>
+
+<div class='qblock'><p class='qnum'>15. Хто зазначений у вкладці Контакти?</p>
+<label><input type='radio' name='q15' value='0'> Гненний Максим Олександрович</label><br/>
+<label><input type='radio' name='q15' value='1'> Іван Петренко</label><br/>
+<label><input type='radio' name='q15' value='2'> Ольга Коваленко</label><br/>
+<label><input type='radio' name='q15' value='3'> Не вказано</label><br/>
+</div>
+
+<div class='qblock'><p class='qnum'>16. Який email вказано у вкладці Контакти?</p>
+<label><input type='radio' name='q16' value='0'> maxhnenn@gmail.com</label><br/>
+<label><input type='radio' name='q16' value='1'> admin@example.com</label><br/>
+<label><input type='radio' name='q16' value='2'> support@site.ua</label><br/>
+<label><input type='radio' name='q16' value='3'> contact@domain.com</label><br/>
+</div>
+
+<div class='qblock'><p class='qnum'>17. Який телефон вказано у вкладці Контакти?</p>
+<label><input type='radio' name='q17' value='0'> +380982022066</label><br/>
+<label><input type='radio' name='q17' value='1'> +380000000000</label><br/>
+<label><input type='radio' name='q17' value='2'> +380123456789</label><br/>
+<label><input type='radio' name='q17' value='3'> +380987654321</label><br/>
+</div>
+
+<div class='qblock'><p class='qnum'>18. Чому важливо мати план реагування на інциденти?</p>
+<label><input type='radio' name='q18' value='0'> Щоб ще більше ускладнити роботу</label><br/>
+<label><input type='radio' name='q18' value='1'> Щоб швидко відновлювати роботу та зменшувати збитки</label><br/>
+<label><input type='radio' name='q18' value='2'> Щоб уникати оновлень</label><br/>
+<label><input type='radio' name='q18' value='3'> Щоб приховати дії</label><br/>
+</div>
+
+<div class='qblock'><p class='qnum'>19. Що таке сегментація мережі?</p>
+<label><input type='radio' name='q19' value='0'> Розділення мережі на частини для обмеження доступу</label><br/>
+<label><input type='radio' name='q19' value='1'> Злиття всіх мереж в одну</label><br/>
+<label><input type='radio' name='q19' value='2'> Видалення усіх пристроїв</label><br/>
+<label><input type='radio' name='q19' value='3'> Тип антивірусу</label><br/>
+</div>
+
+
+    <div class="controls">
+      <button type="button" id="checkBtn" class="btn">Перевірити відповіді</button>
+      <button type="button" id="showKey" class="btn ghost">Показати правильні відповіді</button>
+      <div id="result" class="result"></div>
+    </div>
+
+    </form>
+  </section>
+
+<script src="js/main.js"></script>
+</body>
+</html>

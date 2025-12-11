@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Основи кібербезпеки — Dark Tech</title>
+<link rel="stylesheet" href="css/style.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body class="dark">
+  <div id="bg"></div>
+  <header class="site-header">
+    <div class="brand">
+      <h1>Основи кібербезпеки</h1>
+      <p class="tag">Dark Tech — графітова тема для сучасних дослідників безпеки</p>
+    </div>
+    <nav class="nav">
+      <a href="home.html">Головна</a>
+      <a href="materials.html">Матеріали</a>
+      <a href="tests.html">Тести</a>
+      <a href="contacts.html">Контакти</a>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <div class="hero-inner">
+      <h2>Вивчай кібербезпеку. Захищай дані. Розумій загрози.</h2>
+      <p>Цей навчальний ресурс містить поглиблені матеріали, практичні поради та інтерактивні тести.</p>
+      <div class="cta">
+        <a class="btn" href="materials.html">Почати навчання</a>
+        <a class="btn ghost" href="tests.html">Пройти тести</a>
+      </div>
+      <p class="note">Відео для скачування: <a href="https://filesamples.com/samples/video/mp4/sample_1280x720.mp4" target="_blank">sample_1280x720.mp4</a></p>
+    </div>
+  </main>
+
+<script src="js/main.js"></script>
+</body>
+</html>
